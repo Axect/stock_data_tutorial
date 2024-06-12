@@ -1,0 +1,10 @@
+[package]
+name = "stock_data_tutorial"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+peroxide = { version = "0.37.5", features = ["parquet", "plot", "csv"] }
+stock-data = "0.1.0"
+tokio = "1.38.0"
